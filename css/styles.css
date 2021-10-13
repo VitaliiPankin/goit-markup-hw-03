@@ -19,7 +19,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 a {
-  margin: 0;
   text-decoration: none;
   color: var(--title-text-color);
   font-style: normal;
@@ -75,6 +74,7 @@ p {
 .page-header {
   padding-left: 0;
   padding-right: 0;
+
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -186,9 +186,11 @@ p {
 }
 .v-h-block {
   margin-bottom: 30px;
+  width: 370px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
+
 .visually-hidden-content {
   width: 1170px;
   margin-left: 0;
