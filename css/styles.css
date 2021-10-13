@@ -68,6 +68,9 @@ p {
 }
 
 /* ---------NAVIGATION----------- */
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
 .page-header {
   padding-left: 0;
   padding-right: 0;
