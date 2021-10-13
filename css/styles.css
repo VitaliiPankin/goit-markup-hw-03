@@ -71,7 +71,7 @@ p {
 .page-header {
   padding-left: 0;
   padding-right: 0;
-  /* outline: 2px solid tomato; */
+
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -132,8 +132,6 @@ p {
 }
 /* VISUALLY-HIDDEN */
 .visually-hidden-main {
-  /* outline: 2px solid mediumspringgreen; */
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -262,8 +260,6 @@ p {
   background-color: var(--secondary-background-color);
 }
 .hero {
-  /* outline: 2px solid mediumspringgreen; */
-
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -288,7 +284,6 @@ p {
 
 /* --------------PECULIARITIES----------------- */
 .peculiarities {
-  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
@@ -327,7 +322,7 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid mediumspringgreen; */
+
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -351,7 +346,6 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
   background-color: var(--third-background-color);
 }
 
