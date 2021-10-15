@@ -29,6 +29,9 @@ ul {
   padding: 0;
   list-style: none;
 }
+img {
+  display: block;
+}
 
 h1,
 h2,
@@ -187,7 +190,7 @@ p {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-text-align: center;
+  text-align: center;
   background-color: var(--secondary-background-color);
 }
 .hero-text {
@@ -203,14 +206,30 @@ text-align: center;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-
+}
 /* --------------PECULIARITIES----------------- */
+
+.peculiarities-sections {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.peculiarities {
+  display: flex;
+  margin-left: -30px;
+}
+.peculiarities-link {
+  width: 270px;
+  flex-basis: calc((100%-4 * 30) / 4);
+  margin-left: 30px;
+}
 .peculiarities-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
 .peculiarities-paragraph {
   font-weight: 400;
@@ -219,23 +238,60 @@ text-align: center;
   letter-spacing: 0.03em;
 }
 
+/* ----------PRODUCTS------------ */
+.products-sections {
+  padding-bottom: 94px;
+  text-align: center;
+  /* display: flex; */
+}
 .products-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.product-list {
+  display: flex;
+  margin-left: -30px;
+}
+.products-foto {
+  flex-basis: calc((100%-3 * 30px) / 3);
+  margin-left: 30px;
+}
 /* -----------------COMMANDs------------------- */
 .command {
   background-color: var(--third-background-color);
 }
-
+.comand-block {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .command-title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
 }
+.command-group {
+  display: flex;
+  margin-left: -30px;
+}
+.command-group-list {
+  flex-basis: calc((100%-4 * 30px) / 4);
+  margin-left: 30px;
+}
+.command-info-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .command-name-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -252,7 +308,14 @@ text-align: center;
 footer {
   background-color: var(--secondary-background-color);
 }
+.footer-block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
 .logo-footer {
+  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -262,7 +325,15 @@ footer {
 .logo-color-studio-footer {
   color: var(--logo-color-studio-footer);
 }
-
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+  margin-top: -9px;
+}
+.footer-adress-link {
+  flex-basis: calc((100%-3 * 9px) / 3);
+  margin-top: 9px;
+}
 .company-address-link {
   font-size: 14px;
   line-height: 1.71;
