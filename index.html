@@ -20,71 +20,63 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="header-border">
-      <header class="page-header container">
+    <header class="page-header">
+      <nav>
         <a href="./index.html" class="logo"
           ><span class="logo-color-web">Web</span
           ><span class="logo-color-studio">Studio</span></a
         >
-        <nav class="header-nav">
-          <ul class="site-nav">
-            <li class="site-li">
-              <a class="link link-active" href="./">Студия</a>
-            </li>
-            <li class="site-li">
-              <a class="link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="site-li"><a class="link" href="">Контакты</a></li>
-          </ul>
-        </nav>
-        <ul class="auth-nav">
-          <li class="auth-li">
-            <a class="link link-contacs" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="auth-li">
-            <a class="link link-contacs" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
+        <ul class="site-nav">
+          <li><a class="link link-active" href="./">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
-      </header>
-    </div>
+      </nav>
+      <ul class="auth-nav">
+        <li>
+          <a class="link link-contacs" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link link-contacs" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </header>
     <main>
-      <section class="hero-bgn">
-        <div class="container hero">
-          <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-          <button class="button button-text" type="button">
-            Заказать услугу
-          </button>
-        </div>
+      <section class="hero">
+        <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+        <button class="button button-text" type="button">
+          Заказать услугу
+        </button>
       </section>
-      <section class="container peculiarities">
+      <section>
         <h2 class="visually-hidden">Особености</h2>
-        <ul class="peculiarities-list">
-          <li class="peculiarities-li">
+        <ul class="peculiarities">
+          <li>
             <h3 class="peculiarities-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p class="peculiarities-paragraph">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="peculiarities-li">
+          <li>
             <h3 class="peculiarities-title">ПУНКТКАЛЬНОСТЬ</h3>
             <p class="peculiarities-paragraph">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li class="peculiarities-li">
+          <li>
             <h3 class="peculiarities-title">ПЛАНИРОВАНИЕ</h3>
             <p class="peculiarities-paragraph">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="peculiarities-li">
+          <li>
             <h3 class="peculiarities-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
             <p class="peculiarities-paragraph">
               Значимость этих проблем настолько очевидна, что реализация
@@ -93,9 +85,9 @@
           </li>
         </ul>
       </section>
-      <section class="products-sections container">
+      <section>
         <h2 class="products-title">Чем мы занимаемся</h2>
-        <ul class="products-ul">
+        <ul>
           <li>
             <img
               src="./images/img-0.jpg"
@@ -122,9 +114,9 @@
           </li>
         </ul>
       </section>
-      <section class="command container">
+      <section class="command">
         <h2 class="command-title">Наша команда</h2>
-        <ul class="command-ul">
+        <ul>
           <li>
             <img
               src="./images/img-3.jpg"
@@ -168,47 +160,37 @@
         </ul>
       </section>
     </main>
-    <div class="footer-bgd">
-      <footer class="container">
-        <a href="./index.html" class="logo-footer"
-          ><span class="logo-color-web">Web</span
-          ><span class="logo-color-studio-footer">Studio</span>
-        </a>
+    <footer>
+      <a href="./index.html" class="logo-footer"
+        ><span class="logo-color-web">Web</span
+        ><span class="logo-color-studio-footer">Studio</span>
+      </a>
 
-        <address class="company-address">
-          <ul>
-            <div class="address-div">
-              <li>
-                <a
-                  class="company-address-link a-c-hover-focus"
-                  href="https://goo.gl/maps/QHeTT9nwSXY6Y2y69"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </li>
-            </div>
-            <div class="address-div">
-              <li>
-                <a
-                  class="company-contacts a-c-hover-focus"
-                  href="mailto:info@example.com"
-                  >info@example.com</a
-                >
-              </li>
-            </div>
-            <div class="address-div">
-              <li>
-                <a
-                  class="company-contacts a-c-hover-focus"
-                  href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
-              </li>
-            </div>
-          </ul>
-        </address>
-      </footer>
-    </div>
+      <address class="company-address">
+        <ul>
+          <li>
+            <a
+              class="company-address-link a-c-hover-focus"
+              href="https://goo.gl/maps/QHeTT9nwSXY6Y2y69"
+              target="_blank"
+              rel="noopener noreferrer"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li>
+            <a
+              class="company-contacts a-c-hover-focus"
+              href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="company-contacts a-c-hover-focus" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>
