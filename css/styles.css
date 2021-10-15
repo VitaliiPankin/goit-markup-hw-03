@@ -18,14 +18,28 @@ body {
   font-family: "Roboto", sans-serif;
 }
 a {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   color: var(--title-text-color);
   font-style: normal;
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 p {
+  margin: 0;
   color: var(--primery-text-color);
 }
 .visually-hidden {
@@ -39,6 +53,13 @@ p {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* --------------LOGO-------------- */
@@ -60,6 +81,7 @@ p {
 
 /* ---------NAVIGATION----------- */
 .site-nav {
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -72,6 +94,7 @@ p {
   color: var(--acsent-color);
 }
 .auth-nav {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,6 +108,31 @@ p {
 }
 .link-active {
   color: var(--acsent-color);
+}
+
+/* --------------HEADER----------- */
+.page-header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.logo-navigation {
+  padding-right: 93px;
+}
+.header-link-nav:not(:last-child) {
+  margin-right: 50px;
+}
+.header-link-contacts:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* -------------BUTTONs-------------- */
@@ -137,19 +185,25 @@ p {
 }
 /* ----------------HERO---------------- */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+text-align: center;
   background-color: var(--secondary-background-color);
 }
 .hero-text {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   width: 696px;
   height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--background-color);
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+
 
 /* --------------PECULIARITIES----------------- */
 .peculiarities-title {
