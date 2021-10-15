@@ -142,9 +142,10 @@ p {
 
 /* -------------BUTTONs-------------- */
 .button {
+  height: 50px;
   background-color: var(--color-logo);
   border: none;
-  height: 50px;
+
   border-radius: 4px;
   cursor: pointer;
 }
@@ -154,6 +155,7 @@ p {
 }
 
 .button-text {
+  padding: 10px 32px;
   color: var(--background-color);
   font-weight: 700;
   font-size: 16px;
@@ -165,6 +167,7 @@ p {
 }
 
 .buttons-secondary {
+  padding: 6px 22px;
   height: 38px;
   background-color: var(--third-background-color);
   border: none;
