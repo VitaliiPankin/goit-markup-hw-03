@@ -166,7 +166,6 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  isplay: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -369,12 +368,9 @@ footer {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
 }
 
 .logo-footer {
-  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -384,14 +380,11 @@ footer {
 .logo-color-studio-footer {
   color: var(--logo-color-studio-footer);
 }
-.footer-adress {
-  display: flex;
-  flex-direction: column;
-  margin-top: -9px;
+.footer-adress-link:not(:last-child) {
+  margin-bottom: 9px;
 }
-.footer-adress-link {
-  flex-basis: calc((100%-3 * 9px) / 3);
-  margin-top: 9px;
+.footer-adress-link:first-child {
+  margin-top: 20px;
 }
 .company-address-link {
   font-size: 14px;
