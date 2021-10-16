@@ -230,7 +230,7 @@ p {
 }
 .peculiarities-link {
   width: 270px;
-  flex-basis: calc((100%-4 * 30) / 4);
+  flex-basis: calc((100% - 4 * 30) / 4);
   margin-left: 30px;
 }
 .peculiarities-title {
@@ -267,7 +267,7 @@ p {
   margin-left: -30px;
 }
 .products-foto {
-  flex-basis: calc((100%-3 * 30px) / 3);
+  flex-basis: calc((100% - 3 * 30px) / 3);
   margin-left: 30px;
 }
 /* -----------------COMMANDs------------------- */
@@ -289,7 +289,7 @@ p {
   margin-left: -30px;
 }
 .command-group-list {
-  flex-basis: calc((100%-4 * 30px) / 4);
+  flex-basis: calc((100% - 4 * 30px) / 4);
   margin-left: 30px;
 }
 .command-info-block {
