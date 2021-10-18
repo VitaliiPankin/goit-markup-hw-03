@@ -77,9 +77,6 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-color-web {
-  color: var(--logo-color-web);
-}
 .logo-color-studio {
   color: var(--logo-color-studio);
 }
@@ -129,6 +126,7 @@ p {
   align-items: center;
 }
 .logo-navigation {
+  color: var(--acsent-color);
   margin-right: 93px;
 }
 .logo-header {
@@ -136,6 +134,7 @@ p {
   padding-bottom: 25px;
 }
 .header-link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -371,6 +370,9 @@ footer {
 }
 
 .logo-footer {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--acsent-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -380,12 +382,13 @@ footer {
 .logo-color-studio-footer {
   color: var(--logo-color-studio-footer);
 }
-.footer-adress-link:not(:last-child) {
+..footer-address-link {
+  display: block;
+}
+.footer-address-link:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-adress-link:first-child {
-  margin-top: 20px;
-}
+
 .company-address-link {
   font-size: 14px;
   line-height: 1.71;
